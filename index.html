@@ -81,6 +81,7 @@
             <div class="dropdown-content" id="myDropdown">
                 <a href="javascript:grid_binance()">Binance manicptlowrisk</a>
                 <a href="javascript:grid_bybit_manilowrisk()">Bybit manicptlowrisk</a>
+                <a href="javascript:grid_bybit_manilowrisk2()">Bybit manicptlowrisk2</a>
             </div>
         </div>
     </div>
@@ -140,6 +141,26 @@
             document.getElementById("grid").appendChild(op);
             let rndr = document.createElement("img");
             rndr.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT1/tr:w-1280/grid_bybit_CPT1_RNDRUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(rndr);
+        }
+        function grid_bybit_manilowrisk2() {
+            var timestamp = Date.now()
+            let grid = document.getElementById("grid");
+            grid.innerHTML = '';
+            let agix = document.createElement("img");
+            agix.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_AGIXUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(agix);
+            let doge = document.createElement("img");
+            doge.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_DOGEUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(doge);
+            let fet = document.createElement("img");
+            fet.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_FETUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(fet);
+            let inj = document.createElement("img");
+            inj.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_INJUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(inj);
+            let rndr = document.createElement("img");
+            rndr.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_RNDRUSDT.png?updatedAt=" + timestamp;
             document.getElementById("grid").appendChild(rndr);
         }
     </script>
