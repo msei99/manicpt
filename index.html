@@ -79,14 +79,14 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content" id="myDropdown">
-                <a href="javascript:grid_binance()">Binance manicptlowrisk</a>
-                <a href="javascript:grid_bybit_manilowrisk()">Bybit manicptlowrisk</a>
-                <a href="javascript:grid_bybit_manilowrisk2()">Bybit manicptlowrisk2</a>
-                <a href="javascript:grid_bybit_manilowrisk3()">Bybit manicptlowrisk3</a>
-                <a href="javascript:grid_bybit_manibybit10()">Bybit manicpthighroller</a>
-                <a href="javascript:grid_bybit_manibybit08()">Bybit manicptmulti1</a>
-                <a href="javascript:grid_bybit_tik()">Bybit tikverylowrisk</a>
-                <a href="javascript:grid_okx()">OKX manicptlr1</a>
+                <a href="javascript:grid_binance_CPT()">binance_CPT</a>
+                <a href="javascript:grid_bybit_CPT1()">bybit_CPT1</a>
+                <a href="javascript:grid_bybit_CPT2()">bybit_CPT2</a>
+                <a href="javascript:grid_bybit_CPT3()">bybit_CPT3</a>
+                <a href="javascript:grid_manibybit08()">manibybit08</a>
+                <a href="javascript:grid_manicpthighroller()">manicpthighroller</a>
+                <a href="javascript:grid_okx_MAINCPT()">okx_MAINCPT</a>
+                <a href="javascript:grid_tikverylowrisk()">tikverylowrisk</a>
             </div>
         </div>
     </div>
@@ -108,293 +108,293 @@
         }
     </script>
     <script>
-        function grid_binance() {
+        function grid_binance_CPT() {
             var timestamp = Date.now()
             let grid = document.getElementById("grid");
             grid.innerHTML = '';
-            // DOGE
-            let doge = document.createElement("img");
-            doge.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_DOGEUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(doge);
-            // FET
-            let fet = document.createElement("img");
-            fet.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_FETUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(fet);
-            // FTM
-            let ftm = document.createElement("img");
-            ftm.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_FTMUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(ftm);
-            // INJ
-            let inj = document.createElement("img");
-            inj.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_INJUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(inj);
-            // RNDR
-            let rndr = document.createElement("img");
-            rndr.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_RNDRUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(rndr);
+            // DOGEUSDT
+            let DOGEUSDT = document.createElement("img");
+            DOGEUSDT.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_DOGEUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(DOGEUSDT);
+            // FETUSDT
+            let FETUSDT = document.createElement("img");
+            FETUSDT.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_FETUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FETUSDT);
+            // FTMUSDT
+            let FTMUSDT = document.createElement("img");
+            FTMUSDT.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_FTMUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FTMUSDT);
+            // INJUSDT
+            let INJUSDT = document.createElement("img");
+            INJUSDT.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_INJUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(INJUSDT);
+            // RNDRUSDT
+            let RNDRUSDT = document.createElement("img");
+            RNDRUSDT.src = "https://ik.imagekit.io/zt8y0hunm/binance_CPT/tr:w-1280/grid_binance_CPT_RNDRUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(RNDRUSDT);
         }
-        function grid_bybit_manilowrisk() {
+        function grid_bybit_CPT1() {
             var timestamp = Date.now()
             let grid = document.getElementById("grid");
             grid.innerHTML = '';
-            // FET
-            let fet = document.createElement("img");
-            fet.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT1/tr:w-1280/grid_bybit_CPT1_FETUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(fet);
-            // INJ
-            let inj = document.createElement("img");
-            inj.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT1/tr:w-1280/grid_bybit_CPT1_INJUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(inj);
-            // OP
-            let op = document.createElement("img");
-            op.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT1/tr:w-1280/grid_bybit_CPT1_OPUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(op);
-            // RNDR
-            let rndr = document.createElement("img");
-            rndr.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT1/tr:w-1280/grid_bybit_CPT1_RNDRUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(rndr);
+            // FETUSDT
+            let FETUSDT = document.createElement("img");
+            FETUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT1/tr:w-1280/grid_bybit_CPT1_FETUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FETUSDT);
+            // INJUSDT
+            let INJUSDT = document.createElement("img");
+            INJUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT1/tr:w-1280/grid_bybit_CPT1_INJUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(INJUSDT);
+            // OPUSDT
+            let OPUSDT = document.createElement("img");
+            OPUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT1/tr:w-1280/grid_bybit_CPT1_OPUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(OPUSDT);
+            // RNDRUSDT
+            let RNDRUSDT = document.createElement("img");
+            RNDRUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT1/tr:w-1280/grid_bybit_CPT1_RNDRUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(RNDRUSDT);
         }
-        function grid_bybit_manilowrisk2() {
+        function grid_bybit_CPT2() {
             var timestamp = Date.now()
             let grid = document.getElementById("grid");
             grid.innerHTML = '';
-            // DOGE
-            let doge = document.createElement("img");
-            doge.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_DOGEUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(doge);
-            // FET
-            let fet = document.createElement("img");
-            fet.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_FETUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(fet);
-            // FTM
-            let ftm = document.createElement("img");
-            ftm.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_FTMUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(ftm);
-            // INJ
-            let inj = document.createElement("img");
-            inj.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_INJUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(inj);
-            // RNDR
-            let rndr = document.createElement("img");
-            rndr.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_RNDRUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(rndr);
+            // DOGEUSDT
+            let DOGEUSDT = document.createElement("img");
+            DOGEUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_DOGEUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(DOGEUSDT);
+            // FETUSDT
+            let FETUSDT = document.createElement("img");
+            FETUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_FETUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FETUSDT);
+            // FTMUSDT
+            let FTMUSDT = document.createElement("img");
+            FTMUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_FTMUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FTMUSDT);
+            // INJUSDT
+            let INJUSDT = document.createElement("img");
+            INJUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_INJUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(INJUSDT);
+            // RNDRUSDT
+            let RNDRUSDT = document.createElement("img");
+            RNDRUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT2/tr:w-1280/grid_bybit_CPT2_RNDRUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(RNDRUSDT);
         }
-        function grid_bybit_manilowrisk3() {
+        function grid_bybit_CPT3() {
             var timestamp = Date.now()
             let grid = document.getElementById("grid");
             grid.innerHTML = '';
-            // FTM
-            let ftm = document.createElement("img");
-            ftm.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_FTMUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(ftm);
-            // INJ
-            let inj = document.createElement("img");
-            inj.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_INJUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(inj);
-            // RNDR
-            let rndr = document.createElement("img");
-            rndr.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_RNDRUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(rndr);
-            // SHIB1000
-            let shib1000 = document.createElement("img");
-            shib1000.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_SHIB1000USDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(shib1000);
-            // SOL
-            let sol = document.createElement("img");
-            sol.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_SOLUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(sol);
+            // FTMUSDT
+            let FTMUSDT = document.createElement("img");
+            FTMUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_FTMUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FTMUSDT);
+            // INJUSDT
+            let INJUSDT = document.createElement("img");
+            INJUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_INJUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(INJUSDT);
+            // RNDRUSDT
+            let RNDRUSDT = document.createElement("img");
+            RNDRUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_RNDRUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(RNDRUSDT);
+            // SHIB1000USDT
+            let SHIB1000USDT = document.createElement("img");
+            SHIB1000USDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_SHIB1000USDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(SHIB1000USDT);
+            // SOLUSDT
+            let SOLUSDT = document.createElement("img");
+            SOLUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_SOLUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(SOLUSDT);
         }
-        function grid_bybit_manibybit08() {
+        function grid_manibybit08() {
             var timestamp = Date.now()
             let grid = document.getElementById("grid");
             grid.innerHTML = '';
-            // DOGE
-            let doge = document.createElement("img");
-            doge.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_DOGEUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(doge);
-            // FET
-            let fet = document.createElement("img");
-            fet.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_FETUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(fet);
-            // ICP
-            let icp = document.createElement("img");
-            icp.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_ICPUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(icp);
-            // IMX
-            let imx = document.createElement("img");
-            imx.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_IMXUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(imx);
-            // INJ
-            let inj = document.createElement("img");
-            inj.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_INJUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(inj);
-            // OP
-            let op = document.createElement("img");
-            op.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_OPUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(op);
-            // RNDR
-            let rndr = document.createElement("img");
-            rndr.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_RNDRUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(rndr);
-            // SEI
-            let sei = document.createElement("img");
-            sei.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_SEIUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(sei);
-            // SHIB1000
-            let shib1000 = document.createElement("img");
-            shib1000.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_SHIB1000USDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(shib1000);
+            // DOGEUSDT
+            let DOGEUSDT = document.createElement("img");
+            DOGEUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_DOGEUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(DOGEUSDT);
+            // FETUSDT
+            let FETUSDT = document.createElement("img");
+            FETUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_FETUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FETUSDT);
+            // ICPUSDT
+            let ICPUSDT = document.createElement("img");
+            ICPUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_ICPUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(ICPUSDT);
+            // IMXUSDT
+            let IMXUSDT = document.createElement("img");
+            IMXUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_IMXUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(IMXUSDT);
+            // INJUSDT
+            let INJUSDT = document.createElement("img");
+            INJUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_INJUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(INJUSDT);
+            // OPUSDT
+            let OPUSDT = document.createElement("img");
+            OPUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_OPUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(OPUSDT);
+            // RNDRUSDT
+            let RNDRUSDT = document.createElement("img");
+            RNDRUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_RNDRUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(RNDRUSDT);
+            // SEIUSDT
+            let SEIUSDT = document.createElement("img");
+            SEIUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_SEIUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(SEIUSDT);
+            // SHIB1000USDT
+            let SHIB1000USDT = document.createElement("img");
+            SHIB1000USDT.src = "https://ik.imagekit.io/zt8y0hunm/manibybit08/tr:w-1280/grid_manibybit08_SHIB1000USDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(SHIB1000USDT);
         }
-        function grid_bybit_manibybit10() {
+        function grid_manicpthighroller() {
             var timestamp = Date.now()
             let grid = document.getElementById("grid");
             grid.innerHTML = '';
-            // ATOM
-            let atom = document.createElement("img");
-            atom.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_ATOMUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(atom);
-            // BLUR
-            let blur = document.createElement("img");
-            blur.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_BLURUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(blur);
-            // DOGE
-            let doge = document.createElement("img");
-            doge.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_DOGEUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(doge);
-            // EGLD
-            let egld = document.createElement("img");
-            egld.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_EGLDUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(egld);
-            // FET
-            let fet = document.createElement("img");
-            fet.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_FETUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(fet);
-            // FTM
-            let ftm = document.createElement("img");
-            ftm.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_FTMUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(ftm);
-            // GALA
-            let gala = document.createElement("img");
-            gala.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_GALAUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(gala);
-            // GRT
-            let grt = document.createElement("img");
-            grt.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_GRTUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(grt);
-            // HBAR
-            let hbar = document.createElement("img");
-            hbar.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_HBARUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(hbar);
-            // ICP
-            let icp = document.createElement("img");
-            icp.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_ICPUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(icp);
-            // INJ
-            let inj = document.createElement("img");
-            inj.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_INJUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(inj);
-            // KAS
-            let kas = document.createElement("img");
-            kas.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_KASUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(kas);
-            // LDO
-            let ldo = document.createElement("img");
-            ldo.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_LDOUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(ldo);
-            // OP
-            let op = document.createElement("img");
-            op.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_OPUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(op);
-            // ORDI
-            let ordi = document.createElement("img");
-            ordi.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_ORDIUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(ordi);
-            // PYTH
-            let pyth = document.createElement("img");
-            pyth.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_PYTHUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(pyth);
-            // RNDR
-            let rndr = document.createElement("img");
-            rndr.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_RNDRUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(rndr);
-            // SHIB1000
-            let shib1000 = document.createElement("img");
-            shib1000.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_SHIB1000USDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(shib1000);
-            // SOL
-            let sol = document.createElement("img");
-            sol.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_SOLUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(sol);
-            // TAO
-            let tao = document.createElement("img");
-            tao.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_TAOUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(tao);
-            // WOO
-            let woo = document.createElement("img");
-            woo.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_WOOUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(woo);
-            // XRP
-            let xrp = document.createElement("img");
-            xrp.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_XRPUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(xrp);
+            // ALGOUSDT
+            let ALGOUSDT = document.createElement("img");
+            ALGOUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_ALGOUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(ALGOUSDT);
+            // ATOMUSDT
+            let ATOMUSDT = document.createElement("img");
+            ATOMUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_ATOMUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(ATOMUSDT);
+            // BLURUSDT
+            let BLURUSDT = document.createElement("img");
+            BLURUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_BLURUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(BLURUSDT);
+            // DOGEUSDT
+            let DOGEUSDT = document.createElement("img");
+            DOGEUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_DOGEUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(DOGEUSDT);
+            // EGLDUSDT
+            let EGLDUSDT = document.createElement("img");
+            EGLDUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_EGLDUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(EGLDUSDT);
+            // FETUSDT
+            let FETUSDT = document.createElement("img");
+            FETUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_FETUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FETUSDT);
+            // FTMUSDT
+            let FTMUSDT = document.createElement("img");
+            FTMUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_FTMUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FTMUSDT);
+            // GRTUSDT
+            let GRTUSDT = document.createElement("img");
+            GRTUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_GRTUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(GRTUSDT);
+            // HBARUSDT
+            let HBARUSDT = document.createElement("img");
+            HBARUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_HBARUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(HBARUSDT);
+            // ICPUSDT
+            let ICPUSDT = document.createElement("img");
+            ICPUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_ICPUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(ICPUSDT);
+            // INJUSDT
+            let INJUSDT = document.createElement("img");
+            INJUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_INJUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(INJUSDT);
+            // KASUSDT
+            let KASUSDT = document.createElement("img");
+            KASUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_KASUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(KASUSDT);
+            // LDOUSDT
+            let LDOUSDT = document.createElement("img");
+            LDOUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_LDOUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(LDOUSDT);
+            // LINKUSDT
+            let LINKUSDT = document.createElement("img");
+            LINKUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_LINKUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(LINKUSDT);
+            // OPUSDT
+            let OPUSDT = document.createElement("img");
+            OPUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_OPUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(OPUSDT);
+            // ORDIUSDT
+            let ORDIUSDT = document.createElement("img");
+            ORDIUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_ORDIUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(ORDIUSDT);
+            // PYTHUSDT
+            let PYTHUSDT = document.createElement("img");
+            PYTHUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_PYTHUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(PYTHUSDT);
+            // RNDRUSDT
+            let RNDRUSDT = document.createElement("img");
+            RNDRUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_RNDRUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(RNDRUSDT);
+            // SHIB1000USDT
+            let SHIB1000USDT = document.createElement("img");
+            SHIB1000USDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_SHIB1000USDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(SHIB1000USDT);
+            // SOLUSDT
+            let SOLUSDT = document.createElement("img");
+            SOLUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_SOLUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(SOLUSDT);
+            // TAOUSDT
+            let TAOUSDT = document.createElement("img");
+            TAOUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_TAOUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(TAOUSDT);
+            // XRPUSDT
+            let XRPUSDT = document.createElement("img");
+            XRPUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_XRPUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(XRPUSDT);
         }
-        function grid_bybit_tik() {
+        function grid_okx_MAINCPT() {
             var timestamp = Date.now()
             let grid = document.getElementById("grid");
             grid.innerHTML = '';
-            // DOGE
-            let doge = document.createElement("img");
-            doge.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_DOGEUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(doge);
-            // DYDX
-            let dydx = document.createElement("img");
-            dydx.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_DYDXUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(dydx);
-            // FET
-            let fet = document.createElement("img");
-            fet.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_FETUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(fet);
-            // FTM
-            let ftm = document.createElement("img");
-            ftm.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_FTMUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(ftm);
-            // ICP
-            let icp = document.createElement("img");
-            icp.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_ICPUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(icp);
-            // INJ
-            let inj = document.createElement("img");
-            inj.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_INJUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(inj);
-            // RNDR
-            let rndr = document.createElement("img");
-            rndr.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_RNDRUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(rndr);
-            // SOL
-            let sol = document.createElement("img");
-            sol.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_SOLUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(sol);
+            // FETUSDT
+            let FETUSDT = document.createElement("img");
+            FETUSDT.src = "https://ik.imagekit.io/zt8y0hunm/okx_MAINCPT/tr:w-1280/grid_okx_MAINCPT_FETUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FETUSDT);
+            // INJUSDT
+            let INJUSDT = document.createElement("img");
+            INJUSDT.src = "https://ik.imagekit.io/zt8y0hunm/okx_MAINCPT/tr:w-1280/grid_okx_MAINCPT_INJUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(INJUSDT);
+            // OPUSDT
+            let OPUSDT = document.createElement("img");
+            OPUSDT.src = "https://ik.imagekit.io/zt8y0hunm/okx_MAINCPT/tr:w-1280/grid_okx_MAINCPT_OPUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(OPUSDT);
+            // RNDRUSDT
+            let RNDRUSDT = document.createElement("img");
+            RNDRUSDT.src = "https://ik.imagekit.io/zt8y0hunm/okx_MAINCPT/tr:w-1280/grid_okx_MAINCPT_RNDRUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(RNDRUSDT);
         }
-        function grid_okx() {
+        function grid_tikverylowrisk() {
             var timestamp = Date.now()
             let grid = document.getElementById("grid");
             grid.innerHTML = '';
-            // FET
-            let fet = document.createElement("img");
-            fet.src = "https://ik.imagekit.io/zt8y0hunm/okx_MAINCPT/tr:w-1280/grid_okx_MAINCPT_FETUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(fet);
-            // INJ
-            let inj = document.createElement("img");
-            inj.src = "https://ik.imagekit.io/zt8y0hunm/okx_MAINCPT/tr:w-1280/grid_okx_MAINCPT_INJUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(inj);
-            // OP
-            let op = document.createElement("img");
-            op.src = "https://ik.imagekit.io/zt8y0hunm/okx_MAINCPT/tr:w-1280/grid_okx_MAINCPT_OPUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(op);
-            // RNDR
-            let rndr = document.createElement("img");
-            rndr.src = "https://ik.imagekit.io/zt8y0hunm/okx_MAINCPT/tr:w-1280/grid_okx_MAINCPT_RNDRUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(rndr);
+            // DOGEUSDT
+            let DOGEUSDT = document.createElement("img");
+            DOGEUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_DOGEUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(DOGEUSDT);
+            // DYDXUSDT
+            let DYDXUSDT = document.createElement("img");
+            DYDXUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_DYDXUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(DYDXUSDT);
+            // FETUSDT
+            let FETUSDT = document.createElement("img");
+            FETUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_FETUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FETUSDT);
+            // FTMUSDT
+            let FTMUSDT = document.createElement("img");
+            FTMUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_FTMUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(FTMUSDT);
+            // ICPUSDT
+            let ICPUSDT = document.createElement("img");
+            ICPUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_ICPUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(ICPUSDT);
+            // INJUSDT
+            let INJUSDT = document.createElement("img");
+            INJUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_INJUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(INJUSDT);
+            // RNDRUSDT
+            let RNDRUSDT = document.createElement("img");
+            RNDRUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_RNDRUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(RNDRUSDT);
+            // SOLUSDT
+            let SOLUSDT = document.createElement("img");
+            SOLUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_SOLUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(SOLUSDT);
         }
     </script>
     <section id="grid"></section>
