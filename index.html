@@ -83,6 +83,7 @@
                 <a href="javascript:grid_bybit_CPT1()">bybit_CPT1</a>
                 <a href="javascript:grid_bybit_CPT2()">bybit_CPT2</a>
                 <a href="javascript:grid_bybit_CPT3()">bybit_CPT3</a>
+                <a href="javascript:grid_bybit_CPTDOGEONLY()">bybit_CPTDOGEONLY</a>
                 <a href="javascript:grid_manibybit08()">manibybit08</a>
                 <a href="javascript:grid_manibybit09()">manibybit09</a>
                 <a href="javascript:grid_manicpthighroller()">manicpthighroller</a>
@@ -204,6 +205,15 @@
             let SOLUSDT = document.createElement("img");
             SOLUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPT3/tr:w-1280/grid_bybit_CPT3_SOLUSDT.png?updatedAt=" + timestamp;
             document.getElementById("grid").appendChild(SOLUSDT);
+        }
+        function grid_bybit_CPTDOGEONLY() {
+            var timestamp = Date.now()
+            let grid = document.getElementById("grid");
+            grid.innerHTML = '';
+            // DOGEUSDT
+            let DOGEUSDT = document.createElement("img");
+            DOGEUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPTDOGEONLY/tr:w-1280/grid_bybit_CPTDOGEONLY_DOGEUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(DOGEUSDT);
         }
         function grid_manibybit08() {
             var timestamp = Date.now()
@@ -351,10 +361,6 @@
             let ORDIUSDT = document.createElement("img");
             ORDIUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_ORDIUSDT.png?updatedAt=" + timestamp;
             document.getElementById("grid").appendChild(ORDIUSDT);
-            // PYTHUSDT
-            let PYTHUSDT = document.createElement("img");
-            PYTHUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_PYTHUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(PYTHUSDT);
             // RNDRUSDT
             let RNDRUSDT = document.createElement("img");
             RNDRUSDT.src = "https://ik.imagekit.io/zt8y0hunm/manicpthighroller/tr:w-1280/grid_manicpthighroller_RNDRUSDT.png?updatedAt=" + timestamp;
@@ -409,10 +415,6 @@
             let DYDXUSDT = document.createElement("img");
             DYDXUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_DYDXUSDT.png?updatedAt=" + timestamp;
             document.getElementById("grid").appendChild(DYDXUSDT);
-            // FETUSDT
-            let FETUSDT = document.createElement("img");
-            FETUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_FETUSDT.png?updatedAt=" + timestamp;
-            document.getElementById("grid").appendChild(FETUSDT);
             // FTMUSDT
             let FTMUSDT = document.createElement("img");
             FTMUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_FTMUSDT.png?updatedAt=" + timestamp;
@@ -433,6 +435,10 @@
             let SOLUSDT = document.createElement("img");
             SOLUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_SOLUSDT.png?updatedAt=" + timestamp;
             document.getElementById("grid").appendChild(SOLUSDT);
+            // VETUSDT
+            let VETUSDT = document.createElement("img");
+            VETUSDT.src = "https://ik.imagekit.io/zt8y0hunm/tikverylowrisk/tr:w-1280/grid_tikverylowrisk_VETUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(VETUSDT);
         }
     </script>
     <section id="grid"></section>
