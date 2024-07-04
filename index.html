@@ -85,6 +85,7 @@
                 <a href="javascript:grid_bybit_CPT3()">bybit_CPT3</a>
                 <a href="javascript:grid_bybit_CPT4()">bybit_CPT4</a>
                 <a href="javascript:grid_bybit_CPTDOGEONLY()">bybit_CPTDOGEONLY</a>
+                <a href="javascript:grid_bybit_CPTPro()">bybit_CPTPro</a>
                 <a href="javascript:grid_manibybit08()">manibybit08</a>
                 <a href="javascript:grid_manibybit09()">manibybit09</a>
                 <a href="javascript:grid_manicpthighroller()">manicpthighroller</a>
@@ -232,6 +233,23 @@
             let _DOGEUSDT = document.createElement("img");
             _DOGEUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPTDOGEONLY/tr:w-1280/grid_bybit_CPTDOGEONLY_DOGEUSDT.png?updatedAt=" + timestamp;
             document.getElementById("grid").appendChild(_DOGEUSDT);
+        }
+        function grid_bybit_CPTPro() {
+            var timestamp = Date.now()
+            let grid = document.getElementById("grid");
+            grid.innerHTML = '';
+            // 1000PEPEUSDT
+            let _1000PEPEUSDT = document.createElement("img");
+            _1000PEPEUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPTPro/tr:w-1280/grid_bybit_CPTPro_1000PEPEUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(_1000PEPEUSDT);
+            // DOGEUSDT
+            let _DOGEUSDT = document.createElement("img");
+            _DOGEUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPTPro/tr:w-1280/grid_bybit_CPTPro_DOGEUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(_DOGEUSDT);
+            // SOLUSDT
+            let _SOLUSDT = document.createElement("img");
+            _SOLUSDT.src = "https://ik.imagekit.io/zt8y0hunm/bybit_CPTPro/tr:w-1280/grid_bybit_CPTPro_SOLUSDT.png?updatedAt=" + timestamp;
+            document.getElementById("grid").appendChild(_SOLUSDT);
         }
         function grid_manibybit08() {
             var timestamp = Date.now()
